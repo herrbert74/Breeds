@@ -5,7 +5,7 @@ Test Challenge using Dogs API
 
 ## Tech
 
-* I used commonly used libraries Retrofit 2, Coroutines, Dagger 2, AndroidX, Coil and Compose.
+* I used commonly used libraries Retrofit 2, Coroutines, Dagger 2, AndroidX, Coil, Realm, MockWebServer and Compose.
 * I also used less commonly used libraries, like MVIKotlin, Decompose and Essenty. See details in 
 the structure section.
 * I used my base library. This contains code that I could not find in other third party libraries, and what I use in 
@@ -71,5 +71,4 @@ network is fully mocked.
 
 * The expandable list could show the expand button only if there is a sub breed.
 * The state of the expanded list items could be stored in the breeds screen state.
-* Adding local storage. Given the static nature of the API I would use a cache-first strategy with it.
 * The composable views could be made generic.
